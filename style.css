@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=block&text=Stiller');
+
+* {
+    box-sizing: border-box;
+    color     : white;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display         : flex;
+    flex-flow       : column nowrap;
+    align-items     : center;
+    justify-content : center;
+    background-color: black;
+    margin          : 0;
+}
+
+body h1 {
+    margin     : 0;
+    font-family: "EB Garamond", Georgia, serif;
+    font-weight: 300;
+}
+
+.social hr {
+    width: 100%;
+}
+
+.social {
+    display  : flex;
+    flex-flow: column;
+}
+
+.social nav {
+    display  : flex;
+    font-size: 1.25em;
+}
+
+.social nav a {
+    padding: 0.5em;
+}
+
+.social nav a .icon {
+    filter: invert(1);
+    height: 1em;
+}
+
+video {
+    position: fixed;
+    height  : 100%;
+    z-index : -1;
+}
+
+/* LG */
+@media only screen and (min-width: 75rem) {
+    video {
+        width : 100%;
+        height: initial;
+    }
+}
