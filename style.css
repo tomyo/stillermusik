@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=block&text=Stiller');
+@font-face {
+    /* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap&text=Stiller'); */
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/fonts/font.woff2") format('woff2');
+}
 
 * {
     box-sizing: border-box;
